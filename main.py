@@ -201,8 +201,7 @@ if __name__ == '__main__':
     sh = win.winfo_screenheight()
     win.geometry('+%d+%d' % ((sw - 500) / 2, (sh - 300) / 2))
     # 欢迎语
-    #l = tkinter.Label(win, text='{0-1}KP 实例数据集算法实验平台', font=('华文隶书', 24), fg='skyblue')
-    l = tkinter.Label(win, text='运行时间 0.0009276866912841797s', font=('宋体', 15), fg='black')
+    l = tkinter.Label(win, text='{0-1}KP 实例数据集算法实验平台', font=('华文隶书', 24), fg='skyblue')
     l.place(relx=0.5, rely=0.1, anchor='center')
 
     # 选择数据集
